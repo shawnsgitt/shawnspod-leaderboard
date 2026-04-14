@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: shawnspod-leaderboard
+    runtime: node
+    plan: free
+    buildCommand: ""
+    startCommand: node index.js
+    envVars:
+      - key: PORT
+        value: 10000
